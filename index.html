@@ -1,218 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!--Import Google Icon Font and Social Icons-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?u8vidh">
-  <!--Import materialize.css-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
-  <!--Import local stylesheet-->
-  <link rel="stylesheet" href="css/app.css">
-  <title>It's Nedim</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import semantic ui-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <!--Import local stylesheet-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mike Moore</title>
 </head>
-<body id="top">
-  <div class="navbar-fixed">
-    <nav class="white" role="navigation">
-      <div class="nav-wrapper container">
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#top">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+
+<body>
+
+    <div class="ui secondary pointing menu">
+        <a class="item active">Home</a>
+        <a class="item">About</a>
+        <a class="item">Portfolio</a>
+        <a class="item">Contact</a>
+    </div>
+
+    <main class="wrapper">
+        <section class="section parallax bg1">
+            <h1>Mike Moore</h1>
+            <h2>Web Developer</h2>
+        </section>
+        <section class="section static">
+            <h2>About Me</h2>
+            <i class="github icon huge link blue"></i>
+            <i class="gitlab icon huge link blue"></i>
+            <i class="linkedin icon link huge blue"></i>
+
+            <!-- <a href="https://github.com/mikemoore1618"></a>
+    <a href="https://www.linkedin.com/in/mikemoore1618/"></a> -->
+
+            <p>Im a software developer and graphic designer working primarily in Ruby and ReactJS. I used to be a carpenter, which taught me how to be extremely detail oriented and how to be “on” all the time. Currently, I’m working as a freelance and contract web developerand graphic designer.</p> 
+                
+            <!-- <p>Additional technologies I've worked with include JavaScript, jQuery, Mongoose, MongoDB, Axios, bCrypt, JWT, Express, Node.js, React, Nodemon, Morgan, Bootstrap, Semantic UI, CSS, HTML, AJAX, Passport, Socket.io, EJS, PostgreSQL, Adobe Photoshop, Adobe Illustrator, Adobe In Design, Google Sketchup.</p> -->
+        </section>
+        <section class="section parallax bg2">
+            <h1>Skills and Technologies</h1>
+        </section>
+        <section class="section static">
+
+            <div class="ui equal width grid">
+                <div class="column"><h3>Langauges</h3>
+                    <p>HTML | CSS | Javascript | Ruby</p></div>
+                <div class="column"><h3>Libraries & Frameworks</h3>
+                    <p>jQuery | Rails | Node | Express | React | Socket.io | Bootstrap</p></div>
+                <div class="column"><h3>Databases</h3>
+                    <p>PostgreSQL | MongoDB</p></div>
+                    <div class="column"><h3>Software</h3>
+                        <p>Adobe Illustrator | Adobe Photoshop | Adobe InDesign | Google Sketchup</p></div>
+            </div>
+        </section>
+        <section class="section parallax bg3">
+            <h1>Portfolio</h1>
+        </section>
+    </main>
+
+
+    <!-- 
+    <h2>Portfolio</h2>
+
+    
+
+
+    <h3>Data Tracker</h3>
+    <p>React | JavaScript | Node.js | Socket.io | Express | MongoDB/Mongoose</p>
+    <img src="https://i.imgur.com/14sttmY.png">
+    <p>Have you always wanted to track your daily habits and and wanted to see
+        if there was a connectiom or correlation between them?like, for example, if when I eat 6 pieces
+        of pizza my energy level drops the next day and I'm pissed off at the world, or if when I
+        excersize after work am I more likely to sleep well that night and be in a good mood the next
+        day?</p>
+    <p>I have looked for an ap out there that allows me to do this digitally, but in my search, I
+        havent been able to find an app quite like the one im looking for that is well designed and
+        easy to use, so, I decided to make one!</p>
+    <a href="https://gentle-stream-96140.herokuapp.com/">Try it here!</a>|
+    <a href="https://github.com/mikemoore1618/p4_react_app_data_tracker">Check out the code!</a>
+
+    <h3>Red Rover</h3>
+    <p>JavaScript | Node.js | Express | MongoDB/Mongoose</p>
+    <img src="https://i.imgur.com/Ld4Xn4E.png">
+    <p>Earth: The year is 2139. The massive, long-standing global military
+        conflict between the nations and militaries of Humanity and a collective of self-aware robots
+        let by Mecha-Elon Musk is over and the world finally knows true peace.</p>
+    <p>Robots have now begun to spread across the Solar System and Mars has emerged as the next HOT
+        vacation destination!</p>
+    <p>But where to go? How can you sift through the endless pages or useless travel sites and the
+        onsloaught of spam and advertisements?</p>
+    <p>Look no further! Red Rover is the one-stop-shop for Robots like you to Review Popular Mars
+        Destinations! Log in, search sites, read descriptions, view images, and even chat with other
+        live robots!</p>
+    <a href="https://lets--fly.herokuapp.com/">Try it here!</a>|
+    <a href="https://github.com/chetskii/red-rover">Check out the code!</a>
+
+    <h3>Spotify Go!</h3>
+    <p>Ruby on Rails | PostgreSQL | HTML | CSS</p>
+    <img src="https://i.imgur.com/nDDPqsm.jpg">
+    <p>This app aims solve to Spotify's clunky "Friend Activity" section and
+        make it easier to check out what your friends are listening to and post songs youre currently
+        groovin' too!</p>
+    <a href="https://peaceful-sea-29225.herokuapp.com/">Try it here!</a>|
+    <a href="https://github.com/needimf/CampShare">Check out the code!</a>
+
+    <h3>Pong</h3>
+    <p>JavaScript | HTML | CSS | jQuery</p>
+    <img src="https://i.imgur.com/3lH33mo.png">
+    <p>Pong is a two-dimensional sports game that simulates tennis, or Ping
+        Pong, or air hockey?</p>
+    <a href="https://mikemoore1618.github.io/project-1-game-pong/">Try it here!</a>|
+    <a href="https://github.com/mikemoore1618/project-1-game-pong">Check out the code!</a>
+
+    <footer>
+
+        <h3>Contact</h3>
+        <p>If you want to get in touch or have any questions, feel free to contact me!</p>
+
+        <h3>Location</h3>
+        <p>San Fransisco, CA</p>
+
+        <h3>Email</h3>
+        <p>mikemoore1618@gmail.com</p>
+
+        <h3>Resources</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/mikemoore1618/">LinkedIn</a></li>
+            <li><a href="https://github.com/mikemoore1618">Github</a></li>
         </ul>
 
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      </div>
-    </nav>
-  </div>
-  <ul id="nav-mobile" class="sidenav">
-    <li><a class="sidenav-close" href="#top">Home</a></li>
-    <li><a class="sidenav-close" href="#about">About</a></li>
-    <li><a class="sidenav-close" href="#portfolio">Portfolio</a></li>
-    <li><a class="sidenav-close" href="#contact">Contact</a></li>
-  </ul>
+        <p>© 2018 Mike Moore</p> -->
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <h1 class="header teal-text text-lighten-2">Nedim Filipovic</h1>
-        <div class="row">
-          <h4 class="header col s12 light">Web Developer</h4>
-        </div>
-        <div class="row">
-          <a class="btn-floating btn-large waves-effect waves-light" href="https://github.com/needimf"><i class="socicon-github"></i></a>
-          <a class="btn-floating btn-large waves-effect waves-light" href="https://www.linkedin.com/in/nedimfilipovic/"><i class="socicon-linkedin"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="https://i.imgur.com/hzLDpeD.jpg" alt="Nedim Filipovic Dog Mountain photograph"></div>
-  </div>
+    </footer>
 
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div id="about" class="row anchor">
-        <div class="col s4">
-          <img class="responsive-img materialboxed" src="https://i.imgur.com/YT1MCGB.jpg" alt="Nedim Filipovic profile photo">
-        </div>
-
-        <div class="col s8">
-          <h5>About Me</h5>
-          <p class="light">I’m a Web Developer working in JavaScript, MERN Stack, Ruby on Rails, Python, HTML and CSS. Before I was a Developer I was an undergraduate student at Claremont McKenna College (CMC), and a Head Consultant at CMC’s Center for Writing and Public Discourse (CWPD). As a Head Consultant at the CWPD, I led, managed, and supported a team of 20 Writing Consultants as I prepared and implemented the CWPD’s local outreach program in Pomona, California. Currently, I’m working on Space Strike, a full-stack, real-time battleship browser game, using React.js, Socket.io, Node.js, Express, and MongoDB/Mongoose.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h4 class="header col s12 light">Experience</h4>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="https://i.imgur.com/BlRkUTg.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 l3">
-          <h4>Skills & Technologies</h4>
-        </div>
-        <div class="col s12 m4 l3">
-          <div class="card-panel hoverable">
-            <h5>Langauges</h5>
-            <p class="left-align light">HTML | CSS | Javascript | Ruby | Python</p>
-          </div>
-        </div>
-        <div class="col s12 m4 l3">
-          <div class="card-panel hoverable">
-            <h5>Libraries & Frameworks</h5>
-            <p class="left-align light">jQuery | Rails | Node | Express | React | Socket.io | Bootstrap | MaterializeCSS</p>
-          </div>
-        </div>
-        <div class="col s12 m4 l3">
-          <div class="card-panel hoverable">
-            <h5>Databases</h5>
-            <p class="left-align light">PostgreSQL | MongoDB</p>
-          </div>
-        </div>
-      </div>
-      <div class="row anchor" id="portfolio">
-          <div class="col s12 m3">
-            <h4>Portfolio</h4>
-          </div>
-          <div class="col s12 m9">
-            <div class="row">
-              <div class="col s12">
-                <h5>Space Strike</h5>
-                <h6>React | JavaScript | Node.js | Socket.io | Express | MongoDB/Mongoose</h6>
-                <img class="responsive-img materialboxed" src="https://i.imgur.com/hJiUoV4.png" alt="">
-                <p class="left-align light">Space Strike is an interstellar rendition of the classic game, Battleship! Players are paired up against other users, taking turns firing missiles at each other's spacecraft. The player who destroys all of their opponent's spacecraft first is declared the winner!</p>
-                <a href="https://spacestrike.herokuapp.com">Try it here!</a>
-                |
-                <a href="https://github.com/needimf/space-strike">Check out the code!</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s12">
-                <h5>Let's Fly</h5>
-                <h6>JavaScript | Node.js | Express | MongoDB/Mongoose</h6>
-                <img class="responsive-img materialboxed" src="https://i.imgur.com/Ld4Xn4E.png" alt="">
-                <p class="left-align light">This easy to use app allows travelers to book flights on the fly! Using the robust Amadeus API, Let's Fly helps users find flights for their upcoming trips, and can even suggest destinations for users looking for a new vacation destination. Consumes the Amadeus API, 500px API, Google API, and Wiki API.</p>
-                <a href="https://lets--fly.herokuapp.com/">Try it here!</a>
-                |
-                <a href="https://github.com/needimf/letsFly">Check out the code!</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s12">
-                <h5>Camp Share</h5>
-                <h6>Ruby on Rails | PostgreSQL | HTML | CSS</h6>
-                <img class="responsive-img materialboxed" src="https://i.imgur.com/eeXmhxX.png" alt="">
-                <p class="left-align light">CampShare is an outdoors-focused social media platform that will help you find new campgrounds to explore! Users can find, read about, comment on, and provide their own impressions of campgrounds across the country.</p>
-                <a href="https://campshare.herokuapp.com/">Try it here!</a>
-                |
-                <a href="https://github.com/needimf/CampShare">Check out the code!</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s12">
-                <h5>MineSweeper</h5>
-                <h6>JavaScript | HTML | CSS | jQuery</h6>
-                <img class="responsive-img materialboxed" src="https://i.imgur.com/lXMG1DM.png" alt="">
-                <p class="left-align light">Minesweeper is a web browser game that is based on the classic minesweeper game introduced in the 1960s.</p>
-                <a href="http://needimf.github.io/minesweeper/">Try it here!</a>
-                |
-                <a href="https://github.com/needimf/minesweeper">Check out the code!</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">P.S. I like photography, and all of these photos are mine!</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="https://i.imgur.com/e0lj69A.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer id="contact" class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l5 s12">
-          <h5 class="white-text">Contact</h5>
-          <p class="grey-text text-lighten-4">If you want to get in touch or have any questions, feel free to contact me!</p>
-
-
-        </div>
-        <div class="col l2 s12">
-          <h5 class="white-text">Location</h5>
-          <p>Portland, OR</p>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Email</h5>
-          <p>nedim.filipovic@gmail.com</p>
-        </div>
-
-        <div class="col l2 s12">
-          <h5 class="white-text">Resources</h5>
-          <ul>
-            <li><a class="white-text" href="https://www.linkedin.com/in/nedimfilipovic/">LinkedIn</a></li>
-            <li><a class="white-text" href="https://github.com/needimf">Github</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      © 2017 Nedim Filipovic
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
-  <script src="js/app.js"></script>
+    <!-- Scripts-->
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 
 </body>
+
 </html>

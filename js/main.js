@@ -1,7 +1,2 @@
-$(document).ready(function(){
+console.log("loaded")
 
-    $('.parallax').parallax();
-    $('.materialboxed').materialbox();
-    $('.sidenav').sidenav();
-    
-  });
