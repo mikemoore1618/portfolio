@@ -13,7 +13,7 @@ h1 {
 }
 
 img {
-    height: 300px;
+    width: 100%;
 }
 .wrapper {
   /* The height needs to be set to a fixed value for the effect to work.
@@ -75,4 +75,8 @@ img {
 
 .bg3::after {
     background-image: url("https://i.imgur.com/iENtr5C.jpg");
+  }
+
+  .portfolio-content {
+    height: 400vh;
   }
