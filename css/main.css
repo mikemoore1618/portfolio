@@ -1,16 +1,6 @@
 /* Tiny reset thingy */
+
 body,html{margin:0;padding:0;}
-h1 {
-    color: white;
-}
-
-.grey {
-    color: gray;
-}
-
-.light-grey {
-    color: lightgray;
-}
 
 img {
     width: 100%;
@@ -65,16 +55,28 @@ img {
 }
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */
+
+.bg1 {
+    color: white;
+}
 .bg1::after {
-  background-image: url("https://i.imgur.com/lPl9WEQ.jpg");
+  background-image: url("https://i.imgur.com/zKWv7oY.jpg");
+}
+
+.bg2 {
+    color: white;
+}
+
+.bg3 {
+    height: 100vh;
 }
 
 .bg2::after {
-  background-image: url("https://i.imgur.com/nVSDMEn.jpg");
+  background-image: url("https://i.imgur.com/DRJgZPA.jpg");
 }
 
 .bg3::after {
-    background-image: url("https://i.imgur.com/iENtr5C.jpg");
+    background-image: url("https://i.imgur.com/uVEcTf1.jpg");
   }
 
   .portfolio-content {
