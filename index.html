@@ -1,83 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--Import semantic ui-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
-    <!--Import local stylesheet-->
-    <link rel="stylesheet" href="css/main.css">
-    <title>Mike Moore</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import Google Icon Font and Social Icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?u8vidh">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
+  <!--Import local stylesheet-->
+  <link rel="stylesheet" href="css/main.css">
+  <title>blah</title>
 </head>
+<body id="top">
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-<body>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+  <ul id="nav-mobile" class="sidenav">
+    <li><a class="sidenav-close" href="#top">Home</a></li>
+    <li><a class="sidenav-close" href="#about">About</a></li>
+    <li><a class="sidenav-close" href="#portfolio">Portfolio</a></li>
+    <li><a class="sidenav-close" href="#contact">Contact</a></li>
+  </ul>
 
-    <div class="ui secondary pointing menu">
-        <a class="item active">Home</a>
-        <a class="item">About</a>
-        <a class="item">Portfolio</a>
-        <a class="item">Contact</a>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header teal-text text-lighten-2">Mike Moore</h1>
+        <div class="row">
+          <h4 class="header col s12 light">Web Developer</h4>
+        </div>
+        <div class="row">
+          
+        </div>
+      </div>
     </div>
+    <div class="parallax"><img src="https://i.imgur.com/zKWv7oY.jpg" alt="El Capitan Yosemite Photograph"></div>
+  </div>
 
-    <main class="wrapper">
-        <section class="section parallax bg1">
-            <div>
-                <h1>Mike Moore</h1>
-            </div>
-            <div>
-                <h2 class="light-grey">Web Development</h2>
-            </div>
-            <div>
-                <h2 class="grey">Graphic Design</h2>
-            </div>
-            <h3>San Fransisco, CA</h3>
 
-            <h3>mikemoore1618@gmail.com</h3>
-        </section>
-        <section class="section static">
-            <div class="ui two column centered grid">
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div id="about" class="row anchor">
+        <!-- <div class="col s4">
+          <img class="responsive-img materialboxed" src="https://i.imgur.com/YT1MCGB.jpg" alt="Mike Moore Profile Photo">
+        </div> -->
+
+        <div class="col s8">
+          <h5>About Me</h5>
+          <p>Im a software developer and graphic designer working primarily in Ruby and ReactJS. I used to be
+                a carpenter, which taught me how to be extremely detail oriented and how to be “on” all the
+                time.
+                Currently, I’m working as a freelance and contract web developerand graphic designer.</p>
+
+                <!-- <p>Additional technologies I've worked with include JavaScript, jQuery, Mongoose, MongoDB, Axios, bCrypt, JWT, Express, Node.js, React, Nodemon, Morgan, Bootstrap, Semantic UI, CSS, HTML, AJAX, Passport, Socket.io, EJS, PostgreSQL, Adobe Photoshop, Adobe Illustrator, Adobe In Design, Google Sketchup.</p> -->
+
+                <a class="btn-floating btn-large waves-effect waves-light" href="https://github.com/mikemoore1618"><i class="socicon-github"></i></a>
+          <a class="btn-floating btn-large waves-effect waves-light" href="https://www.linkedin.com/in/mikemoore1618/"><i class="socicon-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
                 <div class="column">
-                    <h2>About Me</h2>
-                    
-                    <p>Im a software developer and graphic designer working primarily in Ruby and ReactJS. I used to be a carpenter, which taught me how to be extremely detail oriented and how to be “on” all the
-                        time.
-                        Currently, I’m working as a freelance and contract web developerand graphic designer.</p>
-                        <div class="column">
-                        <a href="https://github.com/mikemoore1618"><i class="github icon huge link black"></i></a>
-                    <a href="https://gitlab.com/mike_moore"><i class="gitlab icon huge link orange"></i></a>
-                    <a href="https://www.linkedin.com/in/mikemoore1618/"><i class="linkedin icon huge link blue"></i></a>
-
-                </div>
-            </div>
-            <!-- <p>Additional technologies I've worked with include JavaScript, jQuery, Mongoose, MongoDB, Axios, bCrypt, JWT, Express, Node.js, React, Nodemon, Morgan, Bootstrap, Semantic UI, CSS, HTML, AJAX, Passport, Socket.io, EJS, PostgreSQL, Adobe Photoshop, Adobe Illustrator, Adobe In Design, Google Sketchup.</p> -->
-        </section>
-        <section class="section parallax bg2">
-                <div class="ui four column centered grid">
-                        <div class="column">
-                            <h3>Langauges</h3>
-                            <p>HTML<i class="html5 icon"></i> | CSS<i class="css3 alternate icon"></i> | Javascript<i class="js icon"></i> | Ruby<i class="gem icon"></i></p>
-                        </div>
-                        <div class="column">
-                            <h3>Libraries & Frameworks</h3>
-                            <p>jQuery | Rails | Node<i class="node js icon"></i> | Express | React<i class="react icon"></i>| Socket.io | </p>
-                            <!-- Bootstrap | Semantic UI | Tachyons  -->
-                        </div>
-                        <div class="column">
-                            <h3>Databases</h3>
-                            <p>PostgreSQL | MongoDB</p>
-                        </div>
-                        <div class="column">
-                            <h3>Software</h3>
-                            <p>Adobe Illustrator | Adobe Photoshop | Adobe InDesign | Google Sketchup</p>
-                        </div>
+                        <h3>Langauges</h3>
+                        <p>HTML<i class="html5 icon"></i> | CSS<i class="css3 alternate icon"></i> | Javascript<i class="js icon"></i>
+                            | Ruby<i class="gem icon"></i></p>
                     </div>
-        </section>
-        
-        <section class="section static portfolio-content">
-            <div class="ui two column centered grid">
-                <div class="column">
+                    <div class="column">
+                        <h3>Libraries & Frameworks</h3>
+                        <p>jQuery | Rails | Node<i class="node js icon"></i> | Express | React<i class="react icon"></i>|
+                            Socket.io | </p>
+                        <!-- Bootstrap | Semantic UI | Tachyons  -->
+                    </div>
+                    <div class="column">
+                        <h3>Databases</h3>
+                        <p>PostgreSQL | MongoDB</p>
+                    </div>
+                    <div class="column">
+                        <h3>Software</h3>
+                        <p>Adobe Illustrator | Adobe Photoshop | Adobe InDesign | Google Sketchup</p>
+                    </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="https://i.imgur.com/DRJgZPA.jpg" alt="Big Sur Ocean Photograph"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+      <div class="row anchor" id="portfolio">
+          <div class="col s12 m9">
+            <div class="row">
+              <div class="col s12">
+                  <h4>Portfolio</h4>
                     <h3>Pong</h3>
                     <p>JavaScript | HTML | CSS | jQuery</p>
                     <img src="https://i.imgur.com/3lH33mo.png">
@@ -124,21 +162,64 @@
                         easy to use, so, I decided to make one!</p>
                     <a href="https://gentle-stream-96140.herokuapp.com/">Try it here!</a>|
                     <a href="https://github.com/mikemoore1618/p4_react_app_data_tracker">Check out the code!</a>
-
-                </div>
+              </div>
             </div>
-        </section>
-        <section class="section parallax bg3">
-            </section>
-    </main>
-   
+          </div>
+        </div>
 
-    <!-- Scripts-->
-    <script src="js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="https://i.imgur.com/uVEcTf1.jpg" alt="Joshua Tree Photograph"></div>
+  </div>
+
+  <!-- <footer id="contact" class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l5 s12">
+          <h5 class="white-text">Contact</h5>
+          <p class="grey-text text-lighten-4">If you want to get in touch or have any questions, feel free to contact me!</p>
+
+
+        </div>
+        <div class="col l2 s12">
+          <h5 class="white-text">Location</h5>
+          <p>Portland, OR</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Email</h5>
+          <p>mikemoore1618@gmail.com</p>
+        </div>
+
+        <div class="col l2 s12">
+          <h5 class="white-text">Resources</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.linkedin.com/in/mikemoore1619">LinkedIn</a></li>
+            <li><a class="white-text" href="https://github.com/mikemoore1618">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2017 Mike Moore
+      </div>
+    </div>
+  </footer> -->
+
+  <!-- Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
-
 </html>
