@@ -1,6 +1,3 @@
-console.log("loaded")
-
-
 $(document).ready(function(){
 
     $('.parallax').parallax();

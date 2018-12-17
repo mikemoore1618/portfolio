@@ -3,67 +3,60 @@
  * Made By MaterializeCSS.com
  */
 
-
- img {
-  width: 100%;
+ .header {
+  padding-top: 30%;
 }
- nav ul a,
- nav .brand-logo {
-   color: #444;
- }
- 
- p {
-   line-height: 2rem;
- }
- 
- .sidenav-trigger {
-   color:grey;
- }
- 
- .parallax-container {
-   min-height: 100vh;
-   line-height: 0;
-   height: auto;
-   color: rgba(255,255,255,.9);
- }
-   .parallax-container .section {
-     width: 100%;
-   }
- 
- @media only screen and (max-width : 992px) {
-   .parallax-container .section {
-     position: absolute;
-     top: 40%;
-     min-height: 300px;
-   }
-   #index-banner .section {
-     top: 10%;
-   }
- }
- 
- @media only screen and (max-width : 600px) {
-   #index-banner .section {
-     top: 0;
-   }
- }
- 
- .icon-block {
-   padding: 0 15px;
- }
- .icon-block .material-icons {
-   font-size: inherit;
- }
- 
- footer.page-footer {
-   margin: 0;
- }
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
 
- .anchor {
-   padding-top: 64px;
-   margin-top: -64px;
- }
+p {
+  line-height: 2rem;
+}
 
- #about {
-   height: 100vh;
-   display: table-cell;
- }
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 100vh;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.anchor {
+  padding-top: 64px;
+  margin-top: -64px;
+}
